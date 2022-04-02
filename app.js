@@ -11,7 +11,6 @@ const port = 3006
 app.use(bodyParser.json());
 
 // Méthodes de app.
-const log = require('./Utilities/logUtilities')
 const mysqlUtilities = require('./Utilities/MysqlUtilities')
 
 // /////////////////////////////////////////////////////// DEBUT PERSONNES ///////////////////////////////////////////////
